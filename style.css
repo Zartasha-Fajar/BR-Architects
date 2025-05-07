@@ -1,0 +1,343 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    box-shadow: 0px 0px 1px 0px black;
+    background-color: white;
+    position: relative;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.logo {
+    width: max-content;
+    height: max-content;
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+
+.logo b {
+    font-size: 24px;
+}
+
+.logo p {
+    font-size: 22px;
+}
+
+.logo:hover {
+    background-color: #CCCCCC;
+}
+
+.nav {
+    width: 20%;
+    height: max-content;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.nav li {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+}
+
+
+header {
+    width: 100%;
+    height: max-content;
+    position: relative;
+}
+
+.img-div {
+    width: 100%;
+    height: max-content;
+    overflow: hidden;
+}
+
+.img-div img {
+    width: 100%;
+}
+
+.heading {
+    width: max-content;
+    height: 30px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.br {
+    width: max-content;
+    background-color: black;
+    opacity: .66;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.br h1,
+.ar h1 {
+    color: white;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.ar {
+    width: 14%;
+    height: 10%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.project {
+    width: 100%;
+    height: max-content;
+    position: relative;
+}
+
+.pro {
+    width: max-content;
+    height: max-content;
+    margin: 50px;
+}
+
+.parent-div {
+    width: 95%;
+    height: max-content;
+    padding-bottom: 30px;
+    margin: auto;
+}
+
+.div-1 {
+    width: 23.8%;
+    height: max-content;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.left {
+    margin-left: 1.2%;
+}
+
+.left2 {
+    margin-left: 1.2%;
+}
+
+.top {
+    margin-top: 20px;
+}
+
+.div-1 img {
+    width: 100%;
+    height: max-content;
+}
+
+.text-1 {
+    width: max-content;
+    height: max-content;
+    background-color: black;
+    color: white;
+    position: absolute;
+    padding: 5px;
+}
+
+.about {
+    width: 100%;
+    height: max-content;
+}
+
+.ab {
+    margin: 50px;
+}
+
+.p {
+    margin: 40px;
+}
+
+.blog {
+    width: 96%;
+    height: max-content;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.blog-1 {
+    width: 24%;
+    height: max-content;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.pic1 img {
+    width: 100%;
+    height: max-content;
+}
+
+.john {
+    width: 100%;
+    height: max-content;
+}
+
+.john h1 {
+    margin-top: 20px;
+}
+
+.john h3 {
+    color: gray;
+    margin-top: 20px;
+}
+
+.john p {
+    margin-top: 20px;
+}
+
+.contact {
+    width: 100%;
+    margin-top: 20px;
+    height: 50px;
+}
+
+.blog-2 {
+    margin-left: 12px;
+}
+
+.detail {
+    width: 100%;
+    height: max-content;
+}
+
+.detail h1 {
+    margin: 40px;
+}
+
+.detail p {
+    margin: 40px;
+}
+
+.form {
+    width: 96%;
+    height: max-content;
+    margin: auto;
+}
+
+.name {
+    width: 100%;
+    height: 40px;
+    border: 1px solid gray;
+}
+
+.email,
+.subject {
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    border: 1px solid gray;
+}
+
+.send {
+    width: 14%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.map {
+    width: 100%;
+    height: max-content;
+}
+
+.img-div2 {
+    width: 96%;
+    height: max-content;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.img-div2 img {
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    height: max-content;
+    border: 1px solid black;
+    background-color: black;
+
+}
+
+footer h3 {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+span:hover {
+    color: green;
+}
+
+@media screen and (max-width:1340px) {
+    .blog-1 {
+        width: 49.3%;
+        margin-top: 20px;
+
+    }
+
+    .blog-2 {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width:1330px) {
+    .div-1 {
+        width: 49.7%;
+    }
+
+    .div-1 {
+        margin-left: 0px;
+
+    }
+}
+
+@media screen and (max-width:1270px) {
+    .blog-1 {
+        width: 99%;
+
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .nav {
+        width: max-content;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .div-1 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .ar {
+        display: none;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .nav {
+        display: none;
+    }
+}
